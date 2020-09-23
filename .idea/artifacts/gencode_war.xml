@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gencode:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gencode</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gencode.war">
+      <element id="artifact" artifact-name="gencode:war exploded" />
+    </root>
+  </artifact>
+</component>
